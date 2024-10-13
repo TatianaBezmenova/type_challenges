@@ -1,0 +1,17 @@
+[flake8]
+ignore =
+    # Coding magic comment not found
+    C101,
+
+exclude =
+    .git,
+    .venv,
+    venv,
+    __pycache__,
+
+filename = *.py
+accept-encodings = utf-8
+inline-quotes = double
+max-linenumber = 500
+max-line-length = 120
+multiline-quotes = double
