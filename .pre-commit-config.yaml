@@ -20,3 +20,10 @@ repos:
     rev: v5.10.1
     hooks:
       - id: isort
+  - repo: local
+    hooks:
+        - id: pyright
+          name: pyright
+          entry: pyright
+          language: system
+          types: [ python ]
